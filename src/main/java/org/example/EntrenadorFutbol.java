@@ -1,4 +1,4 @@
-package org.example.IoC;
+package org.example;
 
 public class EntrenadorFutbol implements Entrenador {
 
