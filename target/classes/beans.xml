@@ -11,4 +11,6 @@ http://www.springframework.org/schema/context/spring-context.xsd">
     </bean>
     <bean id="entrenadorF" class="org.example.EntrenadorFutbol">
     </bean>
+    <bean id="entrenadorT" class="org.example.EntrenadorTenis">
+    </bean>
 </beans>
