@@ -8,13 +8,16 @@ public class Main {
 
         ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
 
-        EntrenadorFutbol entrenadorF = (EntrenadorFutbol) context.getBean("entrenadorF");
-        EntrenadorBaloncesto entrenadorB = (EntrenadorBaloncesto) context.getBean("entrenadorB");
-        EntrenadorTenis entrenadorT = (EntrenadorTenis) context.getBean("entrenadorT");
+        Entrenador entrenadorF = (EntrenadorFutbol) context.getBean("entrenadorF");
+        Entrenador entrenadorB = (EntrenadorBaloncesto) context.getBean("entrenadorB");
+        Entrenador entrenadorT = (EntrenadorTenis) context.getBean("entrenadorT");
 
         System.out.println(entrenadorF.Entrenamiento());
         System.out.println(entrenadorB.Entrenamiento());
         System.out.println(entrenadorT.Entrenamiento());
+        System.out.println(entrenadorT.getEquipo());
+        System.out.println(entrenadorT.getEmail());
+
 
     }
 }

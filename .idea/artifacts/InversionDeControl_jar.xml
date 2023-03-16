@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="InversionDeControl:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/InversionDeControl_jar</output-path>
+    <root id="archive" name="InversionDeControl.jar">
+      <element id="module-output" name="InversionDeControl" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/springframework/spring-context/6.0.6/spring-context-6.0.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/springframework/spring-core/6.0.6/spring-core-6.0.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/springframework/spring-jcl/6.0.6/spring-jcl-6.0.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/springframework/spring-aop/6.0.6/spring-aop-6.0.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/springframework/spring-beans/6.0.6/spring-beans-6.0.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/springframework/spring-expression/6.0.6/spring-expression-6.0.6.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
